@@ -1,6 +1,6 @@
-.body {
-    margin: 0;
-    padding: 0;
+body {
+    margin: 0px;
+    padding: 0px;
 }
 
 #nav-bar {
@@ -84,34 +84,25 @@ img.cart-image {
 
 #popular-item h1 {
     text-align: center;
+    color: #756663;
 }
 
 .grid-item {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 30px;
+    grid-row-gap: 38px;
+    grid-column-gap: 23px;
+    padding-left: 62px;
+    padding-right: 71px;
 }
 
-/* .images {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.images img {
-    border: 1px solid white;
-    background-color: wheat;
-
-} */
 .grid-images {
-
     box-shadow: 0px 0px 10px 0px;
-
     margin-left: 18px;
     background-color: ghostwhite;
-    width: 300px;
     height: auto;
     border-radius: 10px;
-    padding: 10px 10px;
+    padding: 15px 15px;
 }
 
 .grid-images img h1 h2 p {
@@ -133,9 +124,11 @@ img.cart-image {
 
 .grid-images img {
     margin-bottom: 15px;
+    width: 100%;
 }
 
 .grid-images h2 {
+    color: #756663;
     margin-top: 15px;
     margin-bottom: 0px;
 }
@@ -167,13 +160,19 @@ img.cart-image {
 }
 
 #summary img {
-    padding-left: 19px;
-    width: 350px;
+    padding-left: 119px;
+    width: 600px;
 }
 
 .summary-text {
     width: 50%;
-    padding-left: 117px;
+    padding-left: 119px;
+    padding-right: 108px;
+}
+
+.summary-text h1,
+p {
+    color: #756663;
 }
 
 .button-join {
@@ -184,4 +183,30 @@ img.cart-image {
     border-radius: 24px;
     font-weight: 700;
     font-size: 14px;
+}
+
+/* footer section css style */
+
+
+#footer-area {
+    background-color: rgb(241, 219, 97);
+    margin-top: 62px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+#footer-area h1 {
+    text-align: center;
+    color: #756663;
+
+}
+
+#footer-area p {
+    text-align: center;
+    color: #756663;
+
+}
+
+.anchors-item {
+    margin-left: 633px;
 }
