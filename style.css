@@ -1,0 +1,187 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar {
+    display: flex;
+
+    margin-top: 73px;
+}
+
+#nav-bar h1 {
+    color: #756663;
+    font-size: 30px;
+    width: 50%;
+    padding-left: 82px;
+}
+
+.topnav {
+    margin-top: 26px;
+    width: 50%;
+    padding-left: 334px;
+}
+
+.topnav a {
+    color: #756663;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+.fa-solid {
+    margin-left: 8px;
+    font-size: 23px;
+}
+
+img.cart-image {
+    width: 31px;
+    margin-left: 12px;
+}
+
+/* influencer-item's css */
+#influencer-item {
+    display: flex;
+}
+
+.text-item {
+    padding-left: 82px;
+}
+
+.text-item h1 {
+    font-size: 40px;
+    color: #756663;
+    padding-top: 75px;
+}
+
+.text-item p {
+    width: 50%;
+}
+
+.preebook-button {
+    color: white;
+    background-color: rgb(228, 52, 110);
+    border: none;
+    padding: 10px 14px;
+    border-radius: 20px;
+}
+
+.camera img {
+    width: 600px;
+}
+
+.company-item {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+.logos {
+    width: 65px;
+}
+
+/* popular section css style  */
+
+#popular-item h1 {
+    text-align: center;
+}
+
+.grid-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+
+/* .images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.images img {
+    border: 1px solid white;
+    background-color: wheat;
+
+} */
+.grid-images {
+
+    box-shadow: 0px 0px 10px 0px;
+
+    margin-left: 18px;
+    background-color: ghostwhite;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.grid-images img h1 h2 p {
+    display: inline;
+}
+
+.grid-images h1 {
+    display: inline;
+}
+
+.grid-images p {
+    color: #756663;
+}
+
+.number {
+    display: inline;
+    color: #756663;
+}
+
+.grid-images img {
+    margin-bottom: 15px;
+}
+
+.grid-images h2 {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.fa-star,
+.fa-star-half-stroke {
+    color: hsla(43, 90%, 48%, 0.994);
+    margin-left: 0px;
+
+}
+
+.see-about {
+    margin-top: 20px;
+}
+
+.see-about a {
+    margin-left: 950px;
+    text-decoration: none;
+    color: deeppink;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* section summary css style */
+
+#summary {
+    display: flex;
+    margin-top: 100px;
+}
+
+#summary img {
+    padding-left: 19px;
+    width: 350px;
+}
+
+.summary-text {
+    width: 50%;
+    padding-left: 117px;
+}
+
+.button-join {
+    background-color: deeppink;
+    color: white;
+    padding: 6px 8px;
+    border: none;
+    border-radius: 24px;
+    font-weight: 700;
+    font-size: 14px;
+}
