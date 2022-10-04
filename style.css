@@ -210,3 +210,7 @@ p {
 .anchors-item {
     margin-left: 633px;
 }
+
+/* media query css style */
+
+@media only screen and (max-width:688px) {}
